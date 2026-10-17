@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Promotion. Quinton Dixon.</title>
-  <meta name="description" content="A promotion has an owner, a stop date, and a reason. Quinton Dixon runs social campaigns and promotional programs inside that frame.">
+  <meta name="description" content="A promotion has an owner, a stop date, and a reason. Quinton Dixon runs social campaigns and promotional programs to that rule.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Spectral:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <noscript><style>
     @media (max-width: 760px) {
@@ -17,45 +17,71 @@
     }
   </style></noscript>
 </head>
-<body class="swiss">
+<body class="folio">
   <a class="skip" href="#content">Skip to content</a>
-  <header class="bar">
+  <header class="running">
     <a class="home" href="index.html">Quinton Dixon</a>
+    <span class="edition">Ledger</span>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Pages">
-      <a href="index.html">Index</a>
+      <a href="index.html">This week</a>
       <a href="promotion.html" aria-current="page">Promotion</a>
-      <a href="management.html">Management</a>
+      <a href="desk.html">Desk</a>
       <a href="sales.html">Sales</a>
-      <a href="contact.html">Contact</a>
+      <a href="contact.html">Brief</a>
     </nav>
   </header>
-  <main id="content" tabindex="-1">
-    <section class="poster" aria-labelledby="rule">
-      <div class="press" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-      <p class="kicker">Promotion <span class="sheet-no">02</span></p>
-      <div class="tick" aria-hidden="true"></div>
-      <h1 id="rule" class="statement long">A promotion has an owner, a stop date, and a reason.</h1>
-      <ul class="terms">
-        <li>Owner</li>
-        <li>Stop date</li>
-        <li>Reason</li>
-      </ul>
-    </section>
-    <section class="poster" id="campaigns" aria-labelledby="campaigns-title">
-      <div class="press" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-      <p class="kicker">Social campaigns <span class="sheet-no">02</span></p>
-      <div class="tick" aria-hidden="true"></div>
-      <h2 id="campaigns-title" class="statement long">Social campaigns stay inside that frame.</h2>
-      <p class="caption">Quinton names the owner, the stop date, and the reason before a campaign moves. The posts serve that reason. They stop on that date.</p>
-    </section>
-    <section class="poster" id="programs" aria-labelledby="programs-title">
-      <div class="press" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-      <p class="kicker">Promotional programs <span class="sheet-no">02</span></p>
-      <div class="tick" aria-hidden="true"></div>
-      <h2 id="programs-title" class="statement long">A promotional program is a sequence with an end.</h2>
-      <p class="caption">Each step has an owner and a stop. The program closes when the reason is met or the date arrives.</p>
-    </section>
+  <main id="content" class="leaf" tabindex="-1">
+    <h1>A promotion has an owner, a stop date, and a reason.</h1>
+    <p class="lead">Quinton writes those three before a social campaign or a promotional program moves.</p>
+    <table class="week">
+      <caption>The rule, then the two offers with blank lines.</caption>
+      <thead>
+        <tr>
+          <th scope="col">Check</th>
+          <th scope="col">What it holds</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" data-label="Check">Owner</th>
+          <td data-label="What it holds">One person accountable for the promotion.</td>
+        </tr>
+        <tr>
+          <th scope="row" data-label="Check">Stop date</th>
+          <td data-label="What it holds">The day it ends.</td>
+        </tr>
+        <tr>
+          <th scope="row" data-label="Check">Reason</th>
+          <td data-label="What it holds">Why it is running.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="week">
+      <caption>Social campaigns stay in that frame. A promotional program is a sequence with an end.</caption>
+      <thead>
+        <tr>
+          <th scope="col">Offer</th>
+          <th scope="col">Owner</th>
+          <th scope="col">Stop</th>
+          <th scope="col">Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" data-label="Offer">Social campaigns</th>
+          <td data-label="Owner"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+          <td data-label="Stop"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+          <td data-label="Reason"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+        </tr>
+        <tr>
+          <th scope="row" data-label="Offer">Promotional programs</th>
+          <td data-label="Owner"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+          <td data-label="Stop"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+          <td data-label="Reason"><span class="blank"><span class="sr-only">Blank on this sheet</span></span></td>
+        </tr>
+      </tbody>
+    </table>
   </main>
   <script src="site.js"></script>
 </body>
