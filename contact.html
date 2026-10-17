@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact. Quinton Dixon.</title>
+  <meta name="description" content="Write a brief for Quinton Dixon and copy it from the page.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <noscript><style>
+    @media (max-width: 760px) {
+      .nav-toggle { display: none !important; }
+      #site-nav { display: flex !important; position: static !important; inset: auto !important; background: transparent !important; padding: 0 !important; overflow: visible !important; }
+    }
+  </style></noscript>
+</head>
+<body class="swiss">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="bar">
+    <a class="home" href="index.html">Quinton Dixon</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Pages">
+      <a href="index.html">Index</a>
+      <a href="promotion.html">Promotion</a>
+      <a href="management.html">Management</a>
+      <a href="sales.html">Sales</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+  <main id="content" tabindex="-1">
+    <section class="poster work" aria-labelledby="brief-title">
+      <div class="press" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      <p class="kicker">Contact <span class="sheet-no">05</span></p>
+      <div class="tick" aria-hidden="true"></div>
+      <h1 id="brief-title" class="statement">Write the brief.</h1>
+      <div class="brief-grid">
+        <form class="fields" data-brief>
+          <label class="field">
+            <span>Name</span>
+            <input id="brief-name" name="name" type="text" autocomplete="name" required>
+          </label>
+          <fieldset>
+            <legend>Offer</legend>
+            <label class="choice"><input type="radio" name="offer" value="Social campaigns" required> Social campaigns</label>
+            <label class="choice"><input type="radio" name="offer" value="Promotional programs"> Promotional programs</label>
+            <label class="choice"><input type="radio" name="offer" value="Sales support"> Sales support</label>
+            <label class="choice"><input type="radio" name="offer" value="Weekly business-management routines"> Weekly business-management routines</label>
+          </fieldset>
+          <label class="field">
+            <span>Owner</span>
+            <input name="owner" type="text" autocomplete="organization" required>
+          </label>
+          <label class="field">
+            <span>Stop date</span>
+            <input name="stop" type="date" required>
+          </label>
+          <label class="field">
+            <span>Reason</span>
+            <input name="reason" type="text" required>
+          </label>
+          <label class="field">
+            <span>Note</span>
+            <textarea name="note"></textarea>
+          </label>
+          <button type="submit" data-brief-copy>Copy the brief</button>
+        </form>
+        <div class="output">
+          <p id="brief-label">Brief</p>
+          <pre id="brief-text" data-brief-out aria-labelledby="brief-label" aria-live="polite" tabindex="0"></pre>
+          <p class="mail-slot" data-mail-slot></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="site.js"></script>
+</body>
+</html>
