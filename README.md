@@ -1,5 +1,5 @@
 # Quinton Dixon
 
-Static site for the practice. Branches `main`, `acid`, and `folio` are three different pages, not three themes of one layout.
+Acid branch. A diagonal flyer in lime, violet, and black.
 
-`CONTACT_EMAIL` in `site.js` starts as an empty string. The contact page then shows a brief the visitor can copy. Set `CONTACT_EMAIL` to a real address and that page adds a mailto link carrying the same brief.
+`CONTACT_EMAIL` in `site.js` starts as an empty string. The brief page shows a brief the visitor can copy. Set `CONTACT_EMAIL` to a real address and that page adds a mailto link carrying the same brief.
